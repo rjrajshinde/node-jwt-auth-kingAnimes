@@ -1,4 +1,9 @@
-@node-jwt-auth-kingsAnime
+# node-jwt-auth-kingAnimes
+
+#how-to-run
+1. npm i
+2. nodemon app / node app
+
 #main part 
 In this code we used jsonwebtoken to perform authentication
 
