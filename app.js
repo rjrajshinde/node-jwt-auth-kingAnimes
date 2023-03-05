@@ -4,6 +4,7 @@ const authRoutes = require("./routes/authRoutes");
 const cookieParser = require("cookie-parser");
 const authMiddleware = require("./middleware/authMiddleware");
 const checkUser = require("./middleware/checkUser");
+require("dotenv").config();
 
 const app = express();
 
@@ -16,10 +17,8 @@ app.use(cookieParser());
 app.set("view engine", "ejs");
 
 // database connection
-const dbURI =
-  "mongodb+srv://king:king@node-jwt-cluster.1raq8.mongodb.net/nodejwtDB";
 mongoose
-  .connect(dbURI, {
+  .connect(process.env.dbURI || "mongodb://127.0.0.1:27017/kingAnimes", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
