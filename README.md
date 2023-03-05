@@ -29,3 +29,8 @@ Start the server
   npm run dev
 ```
 
+## Demo
+
+https://king-animes.onrender.com/login
+
+
