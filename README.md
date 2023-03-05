@@ -1,16 +1,31 @@
-# node-jwt-auth-kingAnimes
 
-#how-to-run
-1. npm i
-2. nodemon app / node app
+# King Anime (NodeJS Project)
 
-#main part 
-In this code we used jsonwebtoken to perform authentication
 
-here we created a token for every user that's going to sign up on our website and send this token with the 
-help of cookie to browser for authentication purpose
-when the user logout the token will be deleted from browser cookies and user can't access this page without login
+Here It is created for only Authentication(Login/Logout) purpose. I created a token for every user that's going to sign up on our website and send this token with the help of cookie to browser for authentication and when the user logout the token will be deleted from browser cookies after that user can't access this page without login
+## Run Locally
 
-for sending data to database we used routes and script also
+Clone the project
 
-I created this project with the help of some tutorials
+```bash
+  git clone https://github.com/rjrajshinde/node-jwt-auth-kingAnimes.git
+```
+
+Go to the project directory
+
+```bash
+  cd node-jwt-auth-kingAnimes
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  nodemon app / node app
+```
+
