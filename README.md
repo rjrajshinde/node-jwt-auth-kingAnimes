@@ -26,6 +26,6 @@ Install dependencies
 Start the server
 
 ```bash
-  nodemon app / node app
+  npm run dev
 ```
 
