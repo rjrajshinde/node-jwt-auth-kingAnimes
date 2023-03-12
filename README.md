@@ -1,5 +1,5 @@
 
-# King Anime (NodeJS Project)
+# King Anime
 
 
 Here It is created for only Authentication(Login/Logout) purpose. I created a token for every user that's going to sign up on our website and send this token with the help of cookie to browser for authentication and when the user logout the token will be deleted from browser cookies after that user can't access this page without login
