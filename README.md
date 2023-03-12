@@ -29,6 +29,13 @@ Start the server
   npm run dev
 ```
 
+## Tech Stack
+
+- Node JS
+- Express JS
+- JWT (JSON Web Token)
+- Mongodb
+
 ## Demo
 
 https://king-animes.onrender.com/login
